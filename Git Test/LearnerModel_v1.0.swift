@@ -48,4 +48,7 @@ class phoneModel {
     func increaseVolume(){
         volume! += 1
     }
+    func decreaseVolume(){
+        volume! -= 1
+    }
 }

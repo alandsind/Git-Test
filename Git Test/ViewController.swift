@@ -37,4 +37,10 @@ class ViewController: UIViewController {
             updateUI()
         }
     }
+    @IBAction func decreaseVolumeButtonClicked(_ sender: UIButton){
+        if let instance = phoneInstance{
+            instance.decreaseVolume()
+            updateUI()
+        }
+    }
 }
