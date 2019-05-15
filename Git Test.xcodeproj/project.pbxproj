@@ -14,6 +14,7 @@
 		9AFF60E8228B9D0B00143CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFF60E6228B9D0B00143CD6 /* LaunchScreen.storyboard */; };
 		9AFF60F3228B9D0B00143CD6 /* Git_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF60F2228B9D0B00143CD6 /* Git_TestTests.swift */; };
 		9AFF60FE228B9D0B00143CD6 /* Git_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF60FD228B9D0B00143CD6 /* Git_TestUITests.swift */; };
+		9AFF610E228BA8A700143CD6 /* LearnerModel_v1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF610D228BA8A700143CD6 /* LearnerModel_v1.0.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9AFF60F9228B9D0B00143CD6 /* Git TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFF60FD228B9D0B00143CD6 /* Git_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_TestUITests.swift; sourceTree = "<group>"; };
 		9AFF60FF228B9D0B00143CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFF610D228BA8A700143CD6 /* LearnerModel_v1.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel_v1.0.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9AFF60DC228B9D0A00143CD6 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				9AFF610D228BA8A700143CD6 /* LearnerModel_v1.0.swift */,
 				9AFF60DD228B9D0A00143CD6 /* AppDelegate.swift */,
 				9AFF60DF228B9D0A00143CD6 /* ViewController.swift */,
 				9AFF60E1228B9D0A00143CD6 /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFF610E228BA8A700143CD6 /* LearnerModel_v1.0.swift in Sources */,
 				9AFF60E0228B9D0A00143CD6 /* ViewController.swift in Sources */,
 				9AFF60DE228B9D0A00143CD6 /* AppDelegate.swift in Sources */,
 			);

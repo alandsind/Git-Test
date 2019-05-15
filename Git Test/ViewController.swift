@@ -9,13 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var phoneImageLabel: UIImageView!
+    @IBOutlet weak var phoneBrandLabel: UILabel!
+    @IBOutlet weak var phoneVolumeLabel: UILabel!
+    @IBOutlet weak var phoneScreenHeightLabel: UILabel!
+    
+    var phoneInstance: phoneModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        phoneInstance = phoneModel(phoneBrandLabel: "Apple", phoneVolumeLabel: 5, phoneScreenHeightLabel: 171.3, phoneImageLabel: "")
+        
+        updateUI()
+       
     }
-
-
+    func updateUI() {
+        if let instance = phoneInstance {
+            phoneBrandLabel.text = instance.brand
+            phoneVolumeLabel.text = "\(instance.volume)"
+            phoneScreenHeightLabel.text = "\(instance.screenHeight)"
+        }
+    }
+    
+    @IBAction func increaseVolumeButtonClicked(_ sender: UIButton){
+        if let instance = phoneInstance{
+            instance.increaseVolume()
+            updateUI()
+        }
+    }
 }
-
-//tes lagi
