@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        phoneInstance = phoneModel(phoneBrandLabel: "Apple", phoneVolumeLabel: 5, phoneScreenHeightLabel: 171.3, phoneImageLabel: "")
+        phoneInstance = phoneModel(phoneBrandLabel: "Apple", phoneVolumeLabel: 5, phoneScreenHeightLabel: 10.2, phoneImageLabel: "")
         
         updateUI()
        
